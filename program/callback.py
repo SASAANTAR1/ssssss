@@ -20,7 +20,7 @@ async def cbstart(_, query: CallbackQuery):
 🤖 **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) **
 ** يتيح لك تشغيل الموسيقى والفيديو في مجموعات من خلال المكالمات الجديدة في Telegram! **
 💡 ** اكتشف جميع أوامر البوت وكيفية عملها من خلال النقر على زر »📚 الأوامر! **
-🔖 ** لمعرفة كيفية استخدام هذا البوت ، يرجى النقر فوق » زر دليل الاستخدام! **
+🔖 ** لمعرفة كيفية استخدام هذا البوت ، يرجى النقر فوق » زر دليل الاستخدام! **💝🥂. 
 """,
         reply_markup=InlineKeyboardMarkup(
 
@@ -30,7 +30,7 @@ async def cbstart(_, query: CallbackQuery):
 
                     InlineKeyboardButton(
 
-                        "ضيفني في رومڪـ💝🥂. ",
+                        "ضيفني في روꫂڪــ💝🥂. ",
 
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
 
@@ -38,11 +38,11 @@ async def cbstart(_, query: CallbackQuery):
 
                 ],
 
-                [InlineKeyboardButton("اإزاإي تسـ~ـــتعملني💝🥂. ", callback_data="cbhowtouse")],
+                [InlineKeyboardButton("اإزاإي تسـ~ـــتخدمني💝🥂. ", callback_data="cbhowtouse")],
 
                 [
 
-                    InlineKeyboardButton("اإلمطوꫂر🥵💖", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("المطوꫂر💝🥂. ", url=f"https://t.me/{OWNER_NAME}"),
 
                 ],
 
@@ -54,13 +54,21 @@ async def cbstart(_, query: CallbackQuery):
 
                 [
 
-                InlineKeyboardButton("اإوꫂاإمر اإلمشـ~ـــرفين💝🥂. ", callback_data="cbbasic"),
+                InlineKeyboardButton("اإوꫂاإمر اإلمشـ~ـــرفين💝🥂. ", callback_data="ebbasic"),
 
                 ],
 
                 [
 
-                InlineKeyboardButton("اإوꫂاإمر اإلاإعضاإء𓆩❤️𓆪", callback_data="vbbasic"),
+                InlineKeyboardButton("اإوꫂاإمر اإلاإعضاإء💝🥂. ", callback_data="vbbasic"),
+
+                ],
+
+                [
+
+                    InlineKeyboardButton(
+
+                        "قناإة اإلمطوꫂر💝🥂. ", url=f"https://t.me/S_Q_I"
 
                     )
 
