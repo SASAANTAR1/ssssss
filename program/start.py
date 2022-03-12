@@ -132,7 +132,7 @@ async def aping_pong(client: Client, message: Message):
 @Client.on_message(filters.command(["المطور"]) & filters.group & ~filters.edited)
 async def mping_pong(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/c0b6ab227c1f7e907eb90.jpg",
+        photo=f"https://telegra.ph/file/c0b2c5af9c4465c7bf111.jpg",
         caption=f"""فينوꫂم بيمسـ~ـــي عليڪــ يباإشـ~ـــاإ💝🥂. """,
         reply_markup=InlineKeyboardMarkup(
             [
@@ -150,7 +150,7 @@ async def mping_pong(client: Client, message: Message):
 @Client.on_message(filters.command(["السورس"]) & filters.group & ~filters.edited)
 async def gping_pong(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/c0b6ab227c1f7e907eb90.jpg",
+        photo=f"https://telegra.ph/file/c0b2c5af9c4465c7bf111.jpg",
         caption=f"""سـ~ـــوꫂرسـ~ـــ فينوꫂم يراإيق💝🥂. """,
         reply_markup=InlineKeyboardMarkup(
             [
