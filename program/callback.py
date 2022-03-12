@@ -102,7 +102,7 @@ async def cbguides(_, query: CallbackQuery):
 
  🫀 إذا لم ينضم البوت إلى المكالمة ، فتأكد من تشغيل المكالمة  بالفعل ، أو اكتب .غادر ثم اكتب .استدعاء مرة أخرى 🫀
 
- 🔱 مطور السورس @V_O_O
+ 🔱 مطور السورس @M_2_F
 __""" ,
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 رجوع", callback_data="cbstart")]]
@@ -145,7 +145,7 @@ async def mbbasic(_, query: CallbackQuery):
 » .حدث - لتحديث البوت الى احدث اصدار
 »  .ريستارت - اعادة تشغيل البوت
 » .غادر المجموعات - لمغادرة حساب المساعد من كل المجموعات
-مطور السورس @V_O_O
+مطور السورس @M_2_F
 __""", 
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙رجوع", callback_data="cbstart")]]
@@ -169,7 +169,7 @@ async def ebbasic(_, query: CallbackQuery):
 » .استدعاء - دعوة حساب المساعد للمجموعة
 » .غادر - لخروج حساب مساعد من لمجموعة
 
-المطور @V_O_O
+المطور @M_2_F
 __""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 رجوع", callback_data="cbstart")]]
@@ -198,7 +198,7 @@ async def vbbasic(_, query: CallbackQuery):
 
 » .كلمات + 「اسم」» استخراج كلمات الاغنية
 
- ⚜ مطور السورس فينوم @V_O_O
+ ⚜ مطور السورس فينوم @M_2_F
 __""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 رجوع", callback_data="cbstart")]]
