@@ -152,8 +152,8 @@ async def mute(client, m: Message):
         try:
             await call_py.mute_stream(chat_id)
             await m.reply(
-                "🔇 **تم كتم الصوت**\n\n• **لرفع الكتم استخدم**\n» الامر .اتكلم
-            )
+                "🔇 **تم كتم الصوت**\n\n• **لرفع الكتم استخدم**\n» الامر .اتكلم"
+            ) 
         except Exception as e:
             await m.reply(f"🚫 **خطاء:**\n\n`{e}`")
     else:
@@ -161,7 +161,7 @@ async def mute(client, m: Message):
 
 
 @Client.on_message(
-    command(["احجي", f"unmute@{BOT_USERNAME}", "vunmute"]) & other_filters
+    command(["اتكلم", f"unmute@{BOT_USERNAME}", "vunmute"]) & other_filters
 )
 @authorized_users_only
 async def unmute(client, m: Message):
