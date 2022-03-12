@@ -23,34 +23,55 @@ async def cbstart(_, query: CallbackQuery):
 🔖 ** لمعرفة كيفية استخدام هذا البوت ، يرجى النقر فوق » زر دليل الاستخدام! **
 """,
         reply_markup=InlineKeyboardMarkup(
+
             [
+
                 [
+
                     InlineKeyboardButton(
-                        "اضفني الئ مجموعتك💤",
+
+                        "ضيفني في رومڪـ💝🥂. ",
+
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+
                     )
+
                 ],
-                [InlineKeyboardButton("طريقة الاستخدام💡", callback_data="cbhowtouse")],
+
+                [InlineKeyboardButton("اإزاإي تسـ~ـــتعملني💝🥂. ", callback_data="cbhowtouse")],
+
                 [
-                    InlineKeyboardButton("المطور⌨️", url=f"https://t.me/{OWNER_NAME}"),
+
+                    InlineKeyboardButton("اإلمطوꫂر🥵💖", url=f"https://t.me/{OWNER_NAME}"),
+
                 ],
+
                 [
-                InlineKeyboardButton("اوامر المطور📖", callback_data="mbbasic"),
+
+                InlineKeyboardButton("اإوꫂاإمر اإلمطوꫂر💝🥂. ", callback_data="mbbasic"),
+
                 ],
+
                 [
-                InlineKeyboardButton("اوامر المشرفين📚", callback_data="ebbasic"),
+
+                InlineKeyboardButton("اإوꫂاإمر اإلمشـ~ـــرفين💝🥂. ", callback_data="cbbasic"),
+
                 ],
+
                 [
-                InlineKeyboardButton("اوامر الاعضاء📓", callback_data="vbbasic"),
-                ],
-                [
-                    InlineKeyboardButton(
-                        "قناة السورس📜", url=f"https://t.me/S_Q_I"
+
+                InlineKeyboardButton("اإوꫂاإمر اإلاإعضاإء𓆩❤️𓆪", callback_data="vbbasic"),
+
                     )
+
                 ],
+
             ]
+
         ),
+
         disable_web_page_preview=True,
+
     )
 
 
