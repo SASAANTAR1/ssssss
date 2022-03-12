@@ -184,6 +184,10 @@ async def oalive(client: Client, message: Message):
 
                 InlineKeyboardButton("مطۄر فينۄم💝🥂. ", url=f"https://t.me/M_2_F"),
 
+                InlineKeyboardButton(
+
+"url=f"https://t.me/S_Q_I,"قناإة اإلسـ~ـــورسـ~ـــ💝🥂." 
+
                 ),
 
             ]
@@ -203,7 +207,6 @@ async def oalive(client: Client, message: Message):
         reply_markup=keyboard,
 
     )
-
     
 @Client.on_message(
 
