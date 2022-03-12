@@ -180,21 +180,94 @@ async def start(client: Client, message: Message):
 
     
     
-@Client.on_message(filters.command(["السورس"]) & filters.group & ~filters.edited)
-async def ping(client: Client, message: Message):
-    await message.reply_photo(
-        photo=f"https://telegra.ph/file/c0b2c5af9c4465c7bf111.jpg",
-        caption=f"""سـ~ـــوꫂرسـ~ـــ فينوꫂم يراإيق💝🥂. """,
-        reply_markup=InlineKeyboardMarkup(
+@Client.on_message(
+
+    command(["المطور", f"oalive@{BOT_USERNAME}"]) & filters.group & ~filters.edited
+
+)
+
+async def oalive(client: Client, message: Message):
+
+    current_time = datetime.utcnow()
+
+    uptime_sec = (current_time - START_TIME).total_seconds()
+
+    uptime = await _human_time_duration(int(uptime_sec))
+
+    keyboard = InlineKeyboardMarkup(
+
+        [
+
             [
-                [
-                    InlineKeyboardButton(
-                        "مطوꫂر اإلسـ~ـــوꫂرسـ~ـــ", url=f"https://t.me/M_2_F")
-                ]
+
+                InlineKeyboardButton("مطۄر فينۄم💝🥂. ", url=f"https://t.me/M_2_F"),
+
+                ),
+
             ]
-        ),
+
+        ]
+
     )
 
+    alive = f"فينۄم بيمسـ~ـــي عليڪــ يراإيق💝🥂. "
+
+    await message.reply_photo(
+
+        photo=f"{ALIVE_IMG}",
+
+        caption=alive,
+
+        reply_markup=keyboard,
+
+    )
+
+    
+@Client.on_message(
+
+    command(["السورس", f"malive@{BOT_USERNAME}"]) & filters.group & ~filters.edited
+
+)
+
+async def malive(client: Client, message: Message):
+
+    current_time = datetime.utcnow()
+
+    uptime_sec = (current_time - START_TIME).total_seconds()
+
+    uptime = await _human_time_duration(int(uptime_sec))
+
+    keyboard = InlineKeyboardMarkup(
+
+        [
+
+            [
+
+                InlineKeyboardButton("مطۄر فينۄم💝🥂. ", url=f"https://t.me/M_2_F"),
+
+                InlineKeyboardButton(
+
+"url=f"https://t.me/S_Q_I,"قناإة اإلسـ~ـــورسـ~ـــ💝🥂." 
+
+                ),
+
+            ]
+
+        ]
+
+    )
+
+    alive = f"فينۄم بيمسـ~ـــي عليڪــ يراإيق💝🥂. "
+
+    await message.reply_photo(
+
+        photo=f"{ALIVE_IMG}",
+
+        caption=alive,
+
+        reply_markup=keyboard,
+
+    )
 
     
 @Client.on_message(command(["معلومات", f"uptime@{BOT_USERNAME}"]) & ~filters.edited)
