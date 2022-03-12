@@ -130,7 +130,7 @@ async def alive(client: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("مطور السورس", url=f"https://t.me/V_O_O"),
+                InlineKeyboardButton("مطور السورس", url=f"https://t.me/M_2_F"),
                 InlineKeyboardButton(
                     "قناة السورس", url=f"https://t.me/S_Q_I"
                 ),
@@ -159,7 +159,7 @@ async def aping_pong(client: Client, message: Message):
     start = time()
     m_reply = await message.reply_text("يتم التحميل....")
     delta_aping = time() - start
-    await m_reply.edit_text("ها هي الأوامر الأساسية: \n» .شغل »「اسم الأغنية / رابط」تشغيل الصوت mp3 في المكالمة \n» .فيد »「اسم / رابط الفيديو」 تشغيل الفيديو داخل المكالمه \n» .تشغيل صوت »「رابط 」تشغيل صوت \n» .مباشر +「رابط」» تشغيل فيديو مباشر من اليوتيوب \n» .اسكت » لايقاف التشغيل \n» .كمل » استئناف التشغيل \n» .تخطي » تخطي الئ التالي \n» مؤقتا » ايقاف التشغيل موقتا. \n» .كتم » لكتم البوت \n» .احجي » لرفع الكتم عن البوت \n» .بحث + 「اسم」» للبحث علي الاغاني \nمطور السورس فينوم @V_O_O")
+    await m_reply.edit_text("ها هي الأوامر الأساسية: \n» .شغل »「اسم الأغنية / رابط」تشغيل الصوت mp3 في المكالمة \n» .فيد »「اسم / رابط الفيديو」 تشغيل الفيديو داخل المكالمه \n» .تشغيل صوت »「رابط 」تشغيل صوت \n» .مباشر +「رابط」» تشغيل فيديو مباشر من اليوتيوب \n» .اسكت » لايقاف التشغيل \n» .كمل » استئناف التشغيل \n» .تخطي » تخطي الئ التالي \n» مؤقتا » ايقاف التشغيل موقتا. \n» .كتم » لكتم البوت \n» .احجي » لرفع الكتم عن البوت \n» .بحث + 「اسم」» للبحث علي الاغاني \nمطور السورس فينوم @M_2_F")
 
     
 @Client.on_message(filters.command(["المطور"]) & filters.group & ~filters.edited)
