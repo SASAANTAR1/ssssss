@@ -59,30 +59,63 @@ async def start_(client: Client, message: Message):
 🔖 ** لمعرفة كيفية استخدام هذا البوت ، يرجى النقر فوق » زر دليل الاستخدام! **
 """,
         reply_markup=InlineKeyboardMarkup(
+
             [
+
                 [
+
                     InlineKeyboardButton(
-                        "ضيفني في رومڪـ💝🥂. ",
+
+                        "ضيفني في روꫂڪــ💝🥂. ",
+
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+
                     )
+
                 ],
-                [InlineKeyboardButton("اإزاإي تسـ~ـــتعملني💝🥂. ", callback_data="cbhowtouse")],
+
+                [InlineKeyboardButton("اإزاإي تسـ~ـــتخدمني💝🥂. ", callback_data="cbhowtouse")],
+
                 [
-                    InlineKeyboardButton("اإلمطوꫂر🥵💖", url=f"https://t.me/{OWNER_NAME}"),
+
+                    InlineKeyboardButton("المطوꫂر💝🥂. ", url=f"https://t.me/{OWNER_NAME}"),
+
                 ],
+
                 [
+
                 InlineKeyboardButton("اإوꫂاإمر اإلمطوꫂر💝🥂. ", callback_data="mbbasic"),
+
                 ],
+
                 [
-                InlineKeyboardButton("اإوꫂاإمر اإلمشـ~ـــرفين💝🥂. ", callback_data="cbbasic"),
+
+                InlineKeyboardButton("اإوꫂاإمر اإلمشـ~ـــرفين💝🥂. ", callback_data="ebbasic"),
+
                 ],
+
                 [
-                InlineKeyboardButton("اإوꫂاإمر اإلاإعضاإء𓆩❤️𓆪", callback_data="vbbasic"),
+
+                InlineKeyboardButton("اإوꫂاإمر اإلاإعضاإء💝🥂. ", callback_data="vbbasic"),
+
+                ],
+
+                [
+
+                    InlineKeyboardButton(
+
+                        "قناإة اإلمطوꫂر💝🥂. ", url=f"https://t.me/S_Q_I"
+
                     )
+
                 ],
+
             ]
+
         ),
+
         disable_web_page_preview=True,
+
     )
 
 
