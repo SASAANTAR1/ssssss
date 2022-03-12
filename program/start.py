@@ -186,7 +186,7 @@ async def oalive(client: Client, message: Message):
 
                 InlineKeyboardButton(
 
-"قناة السورس💘..!", url=f"https://t.me/S_Q_I"
+"قناة السورس", url=f"https://t.me/S_Q_I"
 
                 ),
 
