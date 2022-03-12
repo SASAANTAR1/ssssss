@@ -232,7 +232,7 @@ async def malive(client: Client, message: Message):
 
                 InlineKeyboardButton(
 
-"url=f"https://t.me/S_Q_I,"قناإة اإلسـ~ـــورسـ~ـــ💝🥂." 
+"قناة السورس", url=f"https://t.me/S_Q_I"
 
                 ),
 
